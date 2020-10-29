@@ -15,7 +15,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tim Clark - Homepage</title>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <!-- Bulma Version 0.9.1-->
@@ -26,16 +25,16 @@
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar is-link is-fixed-top">
+  <nav class="navbar is-link is-fixed-top role="navigation" aria-label="main navigation" ">
     <div class="navbar-brand">
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <div class="navbar-burger burger" data-target="navbar">
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div id="navbar" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="#about">
           <span class="icon">
@@ -574,30 +573,28 @@
               </div>
             </div>
 		</div>
-            <!-- next box 
-			<div class="column is-4 is-third">
-            <div class="card">
+          <div class="column is-4">
+            <!-- analytics -->
+            <div class="card is-third">
               <header class="card-header">
                 <p class="card-header-title">
-                  <span>Github</span>
+                  <span>Analytics</span>
                   <span class="is-pulled-right">
-                    <a href="https://github.com/tdac-highwire/googlehomepage">
-                      <span class="tag is-default">latest</span>
+                    <a href="https://analytics.google.com/">
+                      <span class="tag is-default">Docs</span>
                     </a>
-                  </span>
+					</span>
                 </p>
               </header>
               <div class="card-content">
                 <figure class="image">
-                  <img src="images/github.PNG" alt="Github screenshot">
+                  <img src="images/analytics.PNG" alt="Cloudrun screenshot">
                 </figure>
-                 <p> Github has the code committed - there are two branches at the moment - 'main' and 'dev'  
-				 <p> <i> By storing the code in Git we have accountability, reproducability and a 'last known good' position</i> </p>				 
+                 <p> Javascript code in the header of the HTML will report usage stats to Google Analytics </p>
+                 <p><i> All still free! </i> </p> 				 
               </div>
             </div>
-		</div>
-		-->
-        </div>
+		</div>        </div>
       </div>
     </div>
   </section>
